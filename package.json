@@ -5,7 +5,9 @@
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node ."
+    "build:dev": "tsc -w",
+    "start": "node .",
+    "start:dev": "node --watch ."
   },
   "keywords": [],
   "author": "",
