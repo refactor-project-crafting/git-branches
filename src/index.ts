@@ -4,4 +4,5 @@ const logCountdown = () => {
   }
 };
 
+console.log("Que empiece la cuenta atrás");
 logCountdown();
