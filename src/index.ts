@@ -4,5 +4,11 @@ const logCountdown = () => {
   }
 };
 
+const logCountUp = () => {
+  for (let count = 0; count <= 200; count++) {
+    console.log(count);
+  }
+};
+
 console.log("Que empiece la cuenta atrás");
 logCountdown();
