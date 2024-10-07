@@ -5,7 +5,7 @@ const logCountdown = () => {
 };
 
 const logCountUp = () => {
-  for (let count = 0; count <= 200; count++) {
+  for (let count = 0; count <= 300; count++) {
     console.log(count);
   }
 };
